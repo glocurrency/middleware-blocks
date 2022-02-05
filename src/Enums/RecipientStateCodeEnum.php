@@ -2,8 +2,6 @@
 
 namespace GloCurrency\MiddlewareBlocks\Enums;
 
-use App\Enums\RecipientStateEnum;
-
 enum RecipientStateCodeEnum: string
 {
     /**
