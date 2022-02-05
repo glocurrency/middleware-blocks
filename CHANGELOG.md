@@ -1,5 +1,13 @@
 # Changelog
 
+### [0.2.1](https://www.github.com/glocurrency/middleware-blocks/compare/v0.2.0...v0.2.1) (2022-02-05)
+
+
+### Bug Fixes
+
+* `getOutputAmount` should always return `Money` ([a2887f6](https://www.github.com/glocurrency/middleware-blocks/commit/a2887f682707bd1f4a97e0b15536e1a66c7ff64e))
+* use explicit enum ([1ae62c1](https://www.github.com/glocurrency/middleware-blocks/commit/1ae62c1558523b52d61868a22f227eaf33a5e431))
+
 ## [0.2.0](https://www.github.com/glocurrency/middleware-blocks/compare/v0.1.0...v0.2.0) (2022-02-05)
 
 
