@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.2.2](https://www.github.com/glocurrency/middleware-blocks/compare/v0.2.1...v0.2.2) (2022-02-05)
+
+
+### Bug Fixes
+
+* use proper enum, and add update method ([e2c27b5](https://www.github.com/glocurrency/middleware-blocks/commit/e2c27b5e0cac685659740839203b29f22b2c6bc5))
+
 ### [0.2.1](https://www.github.com/glocurrency/middleware-blocks/compare/v0.2.0...v0.2.1) (2022-02-05)
 
 
