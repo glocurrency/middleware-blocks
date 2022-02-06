@@ -18,4 +18,5 @@ interface TransactionInterface
     public function getSender(): ?SenderInterface;
     public function getRecipient(): ?RecipientInterface;
     public function getOutputAmount(): Money;
+    public function getExternalId(): string;
 }
