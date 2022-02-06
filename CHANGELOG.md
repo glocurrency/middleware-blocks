@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0](https://www.github.com/glocurrency/middleware-blocks/compare/v0.2.2...v0.3.0) (2022-02-06)
+
+
+### Features
+
+* add more methods ([38922d8](https://www.github.com/glocurrency/middleware-blocks/commit/38922d84f57f69a6a7d773b50ab8b4e698ffaa7e))
+
 ### [0.2.2](https://www.github.com/glocurrency/middleware-blocks/compare/v0.2.1...v0.2.2) (2022-02-05)
 
 
