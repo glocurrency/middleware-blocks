@@ -37,6 +37,7 @@ enum ProcessingItemStateCodeEnum: string
 
     /**
      * Collection pin or password can not be obtained.
+     * TODO: rename to `no_collection_password`
      */
     case NO_COLLECTION_PIN = 'no_collection_pin';
 
