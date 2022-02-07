@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.4.0](https://www.github.com/glocurrency/middleware-blocks/compare/v0.3.0...v0.4.0) (2022-02-07)
+
+
+### Features
+
+* add BankInterface ([9b9fd79](https://www.github.com/glocurrency/middleware-blocks/commit/9b9fd79ebc1b8ffc11eeca95113d99da3dd35b55))
+
+
+### Miscellaneous Chores
+
+* update todo ([3d1c1f5](https://www.github.com/glocurrency/middleware-blocks/commit/3d1c1f51ae6401c73d19158233e140bf0a095d77))
+
 ## [0.3.0](https://www.github.com/glocurrency/middleware-blocks/compare/v0.2.2...v0.3.0) (2022-02-06)
 
 
