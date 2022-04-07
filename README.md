@@ -9,3 +9,6 @@ Common blocks to build the middleware.
 
 ## Authors
 - [Ivan Stasiuk](https://github.com/brokeyourbike) | [Twitter](https://twitter.com/brokeyourbike) | [stasi.uk](https://stasi.uk)
+
+## License
+[Mozilla Public License v2.0](https://github.com/glocurrency/middleware-blocks/blob/main/LICENSE)
