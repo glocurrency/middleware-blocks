@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.4.1](https://www.github.com/glocurrency/middleware-blocks/compare/v0.4.0...v0.4.1) (2022-04-07)
+
+
+### Bug Fixes
+
+* add `MobileMoneyProviderInterface` ([b094a0f](https://www.github.com/glocurrency/middleware-blocks/commit/b094a0fc7a09b187120ece9ba1b91fd90718c7c4))
+
 ## [0.4.0](https://www.github.com/glocurrency/middleware-blocks/compare/v0.3.0...v0.4.0) (2022-02-07)
 
 
