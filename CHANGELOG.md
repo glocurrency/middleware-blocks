@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.4.3](https://www.github.com/glocurrency/middleware-blocks/compare/v0.4.2...v0.4.3) (2022-04-07)
+
+
+### Bug Fixes
+
+* add more cases to enum ([451d715](https://www.github.com/glocurrency/middleware-blocks/commit/451d71558cc8c5768fa6e0742ec190b350424da8))
+
 ### [0.4.2](https://www.github.com/glocurrency/middleware-blocks/compare/v0.4.1...v0.4.2) (2022-04-07)
 
 
