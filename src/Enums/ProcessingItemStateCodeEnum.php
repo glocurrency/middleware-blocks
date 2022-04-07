@@ -82,6 +82,11 @@ enum ProcessingItemStateCodeEnum: string
     case NO_TRANSACTION_RECIPIENT_BANK_ACCOUNT = 'no_transaction_recipient_bank_account';
 
     /**
+     * TransactionRecipient `mobile_provider` can not be obtained.
+     */
+    case NO_TRANSACTION_RECIPIENT_MOBILE_PROVIDER = 'no_transaction_recipient_mobile_provider';
+
+    /**
      * TransactionRecipient `phone_number` can not be obtained.
      */
     case NO_TRANSACTION_RECIPIENT_PHONE_NUMBER = 'no_transaction_recipient_phone_number';
@@ -105,6 +110,11 @@ enum ProcessingItemStateCodeEnum: string
      * Target bank code can not be obtained.
      */
     case NO_TARGET_BANK_CODE = 'no_target_bank_code';
+
+    /**
+     * Target mobile provider can not be obtained.
+     */
+    case NO_TARGET_MOBILE_PROVIDER = 'no_target_mobile_provider';
 
     /**
      * Target routing tag can not be obtained.
@@ -267,12 +277,14 @@ enum ProcessingItemStateCodeEnum: string
             self::NO_TRANSACTION_RECIPIENT => ProcessingItemStateEnum::EXCEPTION,
             self::NO_TRANSACTION_RECIPIENT_BANK_CODE => ProcessingItemStateEnum::EXCEPTION,
             self::NO_TRANSACTION_RECIPIENT_BANK_ACCOUNT => ProcessingItemStateEnum::EXCEPTION,
+            self::NO_TRANSACTION_RECIPIENT_MOBILE_PROVIDER => ProcessingItemStateEnum::EXCEPTION,
             self::NO_TRANSACTION_RECIPIENT_PHONE_NUMBER => ProcessingItemStateEnum::EXCEPTION,
             self::NO_TRANSACTION_RECIPIENT_COUNTRY => ProcessingItemStateEnum::EXCEPTION,
             self::DUPLICATE_TARGET_TRANSACTION => ProcessingItemStateEnum::EXCEPTION,
             self::NO_TARGET_DEBIT_ACCOUNT => ProcessingItemStateEnum::EXCEPTION,
             self::NO_TARGET_BANK_CODE => ProcessingItemStateEnum::EXCEPTION,
             self::NO_TARGET_ROUTING_TAG => ProcessingItemStateEnum::EXCEPTION,
+            self::NO_TARGET_MOBILE_PROVIDER => ProcessingItemStateEnum::EXCEPTION,
             self::PROVIDER_PENDING => ProcessingItemStateEnum::PROCESSING,
             self::PROVIDER_TIMEOUT => ProcessingItemStateEnum::STUCK,
             self::PROVIDER_NOT_ACCEPTING_TRANSACTIONS => ProcessingItemStateEnum::ERROR,
@@ -324,13 +336,14 @@ enum ProcessingItemStateCodeEnum: string
             self::NO_TRANSACTION_RECIPIENT => TransactionStateCodeEnum::MANUAL_RECONCILIATION_REQUIRED,
             self::NO_TRANSACTION_RECIPIENT_BANK_CODE => TransactionStateCodeEnum::MANUAL_RECONCILIATION_REQUIRED,
             self::NO_TRANSACTION_RECIPIENT_BANK_ACCOUNT => TransactionStateCodeEnum::MANUAL_RECONCILIATION_REQUIRED,
+            self::NO_TRANSACTION_RECIPIENT_MOBILE_PROVIDER => TransactionStateCodeEnum::MANUAL_RECONCILIATION_REQUIRED,
             self::NO_TRANSACTION_RECIPIENT_PHONE_NUMBER => TransactionStateCodeEnum::MANUAL_RECONCILIATION_REQUIRED,
             self::NO_TRANSACTION_RECIPIENT_COUNTRY => TransactionStateCodeEnum::MANUAL_RECONCILIATION_REQUIRED,
             self::DUPLICATE_TARGET_TRANSACTION => TransactionStateCodeEnum::MANUAL_RECONCILIATION_REQUIRED,
             self::NO_TARGET_DEBIT_ACCOUNT => TransactionStateCodeEnum::MANUAL_RECONCILIATION_REQUIRED,
             self::NO_TARGET_BANK_CODE => TransactionStateCodeEnum::MANUAL_RECONCILIATION_REQUIRED,
             self::NO_TARGET_ROUTING_TAG => TransactionStateCodeEnum::MANUAL_RECONCILIATION_REQUIRED,
-
+            self::NO_TARGET_MOBILE_PROVIDER => TransactionStateCodeEnum::MANUAL_RECONCILIATION_REQUIRED,
             self::PROVIDER_PENDING => TransactionStateCodeEnum::PROVIDER_PENDING,
             self::PROVIDER_TIMEOUT => TransactionStateCodeEnum::PROVIDER_TIMEOUT,
             self::PROVIDER_NOT_ACCEPTING_TRANSACTIONS => TransactionStateCodeEnum::PROVIDER_NOT_ACCEPTING_TRANSACTIONS,
