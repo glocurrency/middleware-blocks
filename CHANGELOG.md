@@ -1,5 +1,13 @@
 # Changelog
 
+### [0.4.2](https://www.github.com/glocurrency/middleware-blocks/compare/v0.4.1...v0.4.2) (2022-04-07)
+
+
+### Bug Fixes
+
+* bump the version ([4f01d34](https://www.github.com/glocurrency/middleware-blocks/commit/4f01d3464f1c361d84719db8130b0baf99923834))
+* try to bump it again ([167b90e](https://www.github.com/glocurrency/middleware-blocks/commit/167b90e44c31514c4a4755d2d268ece1373fb84b))
+
 ### [0.4.1](https://www.github.com/glocurrency/middleware-blocks/compare/v0.4.0...v0.4.1) (2022-04-07)
 
 
