@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.5.0](https://www.github.com/glocurrency/middleware-blocks/compare/v0.4.3...v0.5.0) (2022-10-22)
+
+
+### ⚠ BREAKING CHANGES
+
+* not private
+
+### Features
+
+* not private ([0071772](https://www.github.com/glocurrency/middleware-blocks/commit/0071772b15869d4bea3d3558b6ed4d281d2e183f))
+
 ### [0.4.3](https://www.github.com/glocurrency/middleware-blocks/compare/v0.4.2...v0.4.3) (2022-04-07)
 
 
