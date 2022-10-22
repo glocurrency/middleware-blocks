@@ -1,0 +1,22 @@
+{
+    "name": "middleware-blocks",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "app",
+    "workspaceFolder": "/workspace",
+    "remoteUser": "vscode",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "GitHub.copilot",
+                "bmewburn.vscode-intelephense-client",
+                "mrmlnc.vscode-apache",
+                "calebporzio.better-phpunit",
+                "mikestead.dotenv",
+                "EditorConfig.EditorConfig",
+                "neilbrayfield.php-docblocker",
+                "MehediDracula.php-namespace-resolver",
+                "bradlc.vscode-tailwindcss"
+            ]
+        }
+    }
+}
