@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.7.0](https://www.github.com/glocurrency/middleware-blocks/compare/v0.6.0...v0.7.0) (2023-05-28)
+
+
+### ⚠ BREAKING CHANGES
+
+* do not require country code
+
+### Bug Fixes
+
+* do not require country code ([9073bcd](https://www.github.com/glocurrency/middleware-blocks/commit/9073bcd83020429a8a032a03a762951ed43bebf6))
+
 ## [0.6.0](https://www.github.com/glocurrency/middleware-blocks/compare/v0.5.0...v0.6.0) (2023-05-28)
 
 
