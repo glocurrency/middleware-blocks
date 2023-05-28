@@ -20,7 +20,6 @@ RUN docker-php-ext-install \
     xml \
     zip \
     bcmath \
-    opcache \
     pcntl \
     sockets \
     gd
