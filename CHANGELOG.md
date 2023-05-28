@@ -1,5 +1,21 @@
 # Changelog
 
+## [0.6.0](https://www.github.com/glocurrency/middleware-blocks/compare/v0.5.0...v0.6.0) (2023-05-28)
+
+
+### ⚠ BREAKING CHANGES
+
+* make for country code
+
+### Bug Fixes
+
+* make for country code ([bbbd6b5](https://www.github.com/glocurrency/middleware-blocks/commit/bbbd6b52b6e49c2317175e6c3eac6005c90e52a9))
+
+
+### Miscellaneous Chores
+
+* badge ([f28d2a7](https://www.github.com/glocurrency/middleware-blocks/commit/f28d2a7a6b681f81263869ded0d364f5f8b490c6))
+
 ## [0.5.0](https://www.github.com/glocurrency/middleware-blocks/compare/v0.4.3...v0.5.0) (2022-10-22)
 
 
