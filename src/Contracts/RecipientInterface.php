@@ -2,6 +2,7 @@
 
 namespace GloCurrency\MiddlewareBlocks\Contracts;
 
+use GloCurrency\MiddlewareBlocks\Enums\RecipientTypeEnum;
 use GloCurrency\MiddlewareBlocks\Enums\RecipientStateCodeEnum;
 use GloCurrency\MiddlewareBlocks\Enums\IdentificationTypeEnum;
 use GloCurrency\MiddlewareBlocks\Enums\GenderTypeEnum;
@@ -10,6 +11,7 @@ use GloCurrency\MiddlewareBlocks\Enums\BankAccountTypeEnum;
 interface RecipientInterface
 {
     public function getId(): string;
+    public function getType(): RecipientTypeEnum;
     public function getStateCode(): RecipientStateCodeEnum;
     public function getStateCodeReason(): ?string;
     public function getName(): string;
