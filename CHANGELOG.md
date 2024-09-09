@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.8.0](https://www.github.com/glocurrency/middleware-blocks/compare/v0.7.0...v0.8.0) (2024-09-09)
+
+
+### Features
+
+* recipient type ([5ebe828](https://www.github.com/glocurrency/middleware-blocks/commit/5ebe8284cb6279c4768d0f0d30fb59041403f20d))
+
 ## [0.7.0](https://www.github.com/glocurrency/middleware-blocks/compare/v0.6.0...v0.7.0) (2023-05-28)
 
 
