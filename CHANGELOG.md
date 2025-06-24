@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.9.1](https://www.github.com/glocurrency/middleware-blocks/compare/v0.9.0...v0.9.1) (2025-06-24)
+
+
+### Bug Fixes
+
+* service ([2c9ae05](https://www.github.com/glocurrency/middleware-blocks/commit/2c9ae05a74ac5ec5f4d2f1f17e8729765b21fd06))
+
 ## [0.9.0](https://www.github.com/glocurrency/middleware-blocks/compare/v0.8.0...v0.9.0) (2025-06-24)
 
 
