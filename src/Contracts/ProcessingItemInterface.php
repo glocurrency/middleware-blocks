@@ -12,5 +12,5 @@ interface ProcessingItemInterface
     public function getStateCodeReason(): ?string;
     public function updateStateCode(ProcessingItemStateCodeEnum $stateCode, ?string $stateCodeReason): bool;
     public function getTransaction(): ?TransactionInterface;
-    public function getConsumingService(): ?ConsumingServiceInterface;
+    public function getConsumingService(): ?ServiceInterface;
 }
