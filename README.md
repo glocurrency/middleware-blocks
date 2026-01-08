@@ -1,8 +1,7 @@
 # middleware-blocks
 
 [![tests](https://github.com/glocurrency/middleware-blocks/actions/workflows/tests.yml/badge.svg)](https://github.com/glocurrency/middleware-blocks/actions/workflows/tests.yml)
-[![Maintainability](https://api.codeclimate.com/v1/badges/5278e23e9be55b2a3ffa/maintainability)](https://codeclimate.com/repos/61fe7169c25d13018d003480/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/5278e23e9be55b2a3ffa/test_coverage)](https://codeclimate.com/repos/61fe7169c25d13018d003480/test_coverage)
+[![codecov](https://codecov.io/gh/glocurrency/middleware-blocks/graph/badge.svg?token=es7iSea6FZ)](https://codecov.io/gh/glocurrency/middleware-blocks)
 
 Common blocks to build the middleware.
 
